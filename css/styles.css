@@ -55,7 +55,7 @@ p {
 .sidebar {
     /*border: 1px solid red; */
     width: 30%;
-    height: 700px;
+    height: 900px;
     float: right;
     font-size: 1.5em;
 }
@@ -85,7 +85,7 @@ p {
 .content {
     /*border: 1px solid red; */
     width: 70%;
-    height: 700px;
+    height: 900px;
     float: right;
 }
 
