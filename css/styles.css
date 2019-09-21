@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+h3,
+h5 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+p {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.page {
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    /*border: 1px solid blue;*/
+    padding-top: 50px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.line {
+    height: 20px;
+    background-color: black;
+}
+
+.bg-dark {
+    background-color: #000000 !important;
+}
+
+/*SIDE BAR*/
+
+.sidebar {
+    /*border: 1px solid red; */
+    width: 30%;
+    height: 700px;
+    float: right;
+    font-size: 1.5em;
+}
+
+/*Know*/
+
+#info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*CONTENT*/
+
+.content {
+    /*border: 1px solid red; */
+    width: 70%;
+    height: 700px;
+    float: right;
+}
+
+.centered-content {
+    overflow: hidden;
+    /*border: 1px solid green; */
+    line-height: 0.8;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.tab {
+    /*border: 1px solid red; */
+    float: left;
+    width: 15%;
+    margin: 20px 1.15%;
+}
+
+.button {
+    color: #FFF !important;
+    background-color: #000000;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid #5D6063;
+    /* Dark gray */
+    border-radius: 50px;
+    clear: left;
+    float: left;
+    width: 35%;
+    margin: 10px 10px 0;
+}
+
+.button:hover {
+    color: #000 !important;
+    background-color: #FFF;
+}
+
+.button:active {
+    color: #FFF !important;
+    background-color: #000000;
+}
+
+.second {
+    clear: none;
+}
+
+#money {
+    text-align: left !important;
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*MAIN PAGE*/
+
+#main-pic {
+    float: left;
+    border: 20px solid black;
+}
+
+#main-text {
+    overflow: hidden!important;
+    padding: 0 50px!important;
+    font-size: 100px!important;
+    text-align: left !important;
+    font-family: 'Open Sans', sans-serif!important;
+    /*border: 1px solid red;*/
+}
